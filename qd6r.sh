@@ -114,7 +114,6 @@ sleep 5
 
 username_id=$(curl -L -s 'https://www.instagram.com/'$user'' > getid && grep -o  'profilePage_[0-9]*.' getid | cut -d "_" -f2 | tr -d '"')
 
-mr_doltin="5450537592"
 nour="5021860777"
 banat_styel="3107115967"
 bakr_khald="421004975"
@@ -192,7 +191,7 @@ else
 printf "\e[1;92mGood\e[0m\n"
 fi
 
-sleep 3
+sleep 4
 
 done
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 900 secs...\e[0m\n"
@@ -211,7 +210,7 @@ else
 printf "\e[1;92mOK\e[0m\n"
 fi
 
-sleep 3
+sleep 4
 done
 printf "\e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;77m Sleeping 900 secs...\e[0m\n"
 sleep 900
@@ -266,7 +265,7 @@ elif [[ $option -eq 2 ]]; then
 else
 
 printf "\e[1;93m[!] Invalid Option!\e[0m\n"
-sleep 2
+sleep 3
 menu
 
 fi
